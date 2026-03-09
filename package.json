@@ -1,16 +1,21 @@
 {
-  "name": "assigent",
+  "name": "mentora-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "Simplified backend for a mentorship platform with LLM summarization.",
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "mentorship",
+    "backend",
+    "express",
+    "mongodb",
+    "llm",
+    "summarization"
+  ],
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "bcryptjs": "^3.0.3",
